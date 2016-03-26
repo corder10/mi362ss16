@@ -4,17 +4,60 @@
 	<head> 
 	<meta charset="utf-8">
     <title>MI 349</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media = "screen">		
+	<link rel="stylesheet" href="facebook.css" media = "screen">		
 	</head>
 	
 	<body>
-	<div class="jumbotron">
-		<h1>MI 349</h1>
-		<p>Web Administration</p>
-		<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-		<p><img src="HP_22.png" alt="Picture of my Black Cat" /></p>
-		<p> My black cat and I</p>
-		
+	
+	<h1>Facebook's Tech Stack</h1>
+	
+	<div class="intro">
+		<h2>Facebook</h2>
+		<p> Facebook has become an incredibly popular website with over 350 million active users, with more than 35 million users updating their statuses each day (via <a href=" http://facts.randomhistory.com/interesting-facebook-facts.html">Random History</a>). There are even up to 600,000 attempts to hack Facebook accounts every day (via <a href="http://www.telegraph.co.uk/technology/facebook/8856417/Hackers-go-after-Facebook-sites-600000-times-every-day.html">The Telegraph</a>). With an extraordinary number of users and attempts to access someone else’s account each day Facebook has had to make sure their code and frameworks are top of the line. </p>
+			
+		<p><img src="Facebook_1.jpg" alt="Infographic on Facebook's Security" /> </p>
+		<p>(via <a href="http://www.scribd.com/doc/70451272/Facebook-Security-Infographic">Facebook Scribd</a>)</p>
+	
+	</div>
+	
+	<div class="frameworks">
+		<h2> Programming Languages and Frameworks </h2>
+		<p> Facebook uses Javascript for their front-end software, like most popular websites (via <a href="https://en.wikipedia.org/wiki/Programming_languages_used_in_most_popular_websites">Wikipedia</a>). On the back-end, or server side, Facebook uses PHP and a specific dialect of PHP they developed called “Hack.”  PHP is a dynamically typed language, while hack allows programmers to use both dynamic and static typing. Hack was developed to seamlessly interoperate with PHP. Hack was released for HHVM and the top 20 open source frameworks on GitHub run on HHVM (via <a href="http://hhvm.com/blog/4223/introducing-hack-a-programming-language-for-hhvm">HHVM</a>). As for databases, Facebook uses MySQL and Cassandra, a database management system developed by Facebook. “Cassandra is a distributed storage system for managing structured data that is designed to scale to a very large size across many commodity servers.” According to Avinash Lakshman, Cassandra had met many of these goals by 2008, such as scalability, high performance, high availability, and applicability (via <a href="https://www.facebook.com/notes/facebook-engineering/cassandra-a-structured-storage-system-on-a-p2p-network/24413138919">Facebook</a>).</p>
+	</div>	
+	
+	<div class ="oss">
+		<h2> Open Source Software Used </h2>
+		<p> Not only does Facebook use many different types of Open Source Software, such as GitHub, they also release many. Cassandra, which I’ve already mentioned is one of these projects. Others include:</p>
+		<ul> <a href="http://phabricator.org/">Phabricator</a>, a collection of open source web apps that help many people and software companies; </ul> 
+		<ul> <a href="http://thrift.apache.org/">Thrift</a>, which is used for scalable cross-language services development; </ul> 
+		<ul> <a href="https://github.com/facebook/xhp-lib">XHP</a>, which is a hack feature that augments the syntax of the language so that XML document fragments become valid PHP expressions; </ul>
+		<p>	 and many more (via <a href="http://venturebeat.com/2011/08/30/facebook-open-source-software/">VentureBeat</a>).</p>
+	</div>
+	
+	<div class ="push">
+		<h2>Deploying Code</h2>
+		<p>Facebook deploys code every day. They begin to push the code out by cutting one branch and pushing it to production. Taking advantage of continuous deployment they push smaller pieces of code twice a day which is easier to test. Doing this every day Facebook developers average approximately 12,000 commits per month. Something unique to Facebook is that when the developers push the code they’re only half done, because they have to keep up to date and make sure the code/changes don’t break the site. As opposed to other companies whom have special teams dedicated to this process (via <a href="http://www.infoq.com/presentations/Facebook-Release-Process">Info Q</a>). </p>		
+	</div>
+	
+	<div class ="source">
+		<h2>Source Control</h2>
+		<p>Facebook’s main repository uses Subversion with a Git mirror, while many of the engineers use Git locally to create their own branches. As their code grew with over 44,000 files and 17 million lines of code in 2013, Facebook had to look to a new source control tool: Mercurial. Mercurial has many of the similar features as Git, and is written in mostly clean Python (via <a href="https://code.facebook.com/posts/218678814984400/scaling-mercurial-at-facebook/">Facebook Code</a>). Facebook also uses Watchman, an open source service developed by Facebook to watch files and record any changes. Enabling Watchman made Mercurial’s status command more than 5x faster than Git’s status command (via <a href=" https://facebook.github.io/watchman/"> Facebook GitHub</a>). </p>
+		<p><img src="Watchman.png" alt="Graph of Facebook's Watchman" /> </p>
+		<p>(via <a href="https://code.facebook.com/posts/218678814984400/scaling-mercurial-at-facebook/">Facebook Code</a>)</p>
+	</div>
+	
+	<div class ="cdn">
+		<h2>Content Delivery</h2>
+		<p>Facebook uses Akamai for their content delivery network. Akamai also services other big companies such as Apple and Twitter (via <a href="https://en.wikipedia.org/wiki/Akamai_Technologies">Wikipedia</a>). Facebook receives up to 13 million queries per second, so they need a CDN like Akamai to help their in-house servers (via <a href="http://highscalability.com/blog/2010/11/4/facebook-at-13-million-queries-per-second-recommends-minimiz.html">High Scalability</a>).  There are also over 900 billion objects that people interact with (pages, groups, events) and more than 30 billion pieces of content (web links, news stories, blog posts, notes, photo albums, etc) (via <a href="http://www.slideshare.net/meet.hak/facebook-technology-stack"> SlideShare</a>). Without the proper CDN provider, none of this would be kept consistently possible. </p>
+	</div>
+	
+	<div class ="facts">
+		<h2>Fun Facts</h2>
+		<li> 1 in 3 people feel more dissatisfied with their lives after visiting Facebook (via <a href="http://healthland.time.com/2013/01/24/why-facebook-makes-you-feel-bad-about-yourself/"> Time Magazine</a>).</li> 
+		<li> Facebook tracks which sites you visit even after you’ve signed out (via <a href="http://www.dailymail.co.uk/news/article-2063709/Facebook-watches-800million-users-AFTER-sign-off.html">DailyMail</a>).</li> 
+		<li> Facebook is blocked in China, along with Twitter and The New York Times (via <a href="http://www.investopedia.com/articles/investing/042915/why-facebook-banned-china.asp">Investopedia</a>).</li>
+		<li> But despite being blocked, Facebook has 95 million users in China (via <a href="http://www.businessinsider.com/a-global-social-media-census-2013-10">Business Insider</a>).</li> 
+		<li> Every minute, 1.8 million new likes are made on Facebook (via <a href="http://www.dailymail.co.uk/sciencetech/article-2381188/Revealed-happens-just-ONE-minute-internet-216-000-photos-posted-278-000-Tweets-1-8m-Facebook-likes.html">DailyMail</a>). </li>
 	</div>
 	</body>
 
