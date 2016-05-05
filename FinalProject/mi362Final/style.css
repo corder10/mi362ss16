@@ -1,0 +1,213 @@
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+	text-align: center;
+	font-family: Helvetica;
+}
+
+nav {
+	width:100%; 
+    display:block; 
+    background-color:#009900;
+	border-bottom:5px solid #008B00;
+}
+
+nav ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
+}
+     
+nav ul:After {
+	content: "";
+	display:block;
+	clear:both;
+}	 
+	 
+nav ul li {
+    display: list-item;
+    list-style: none;
+	float: left;
+    background-color: #009900;
+	margin-left: 10%;
+	
+}
+ nav ul li i {
+	font-size: 25px;
+	width: 30px;
+} 
+  
+nav ul li a {
+    display: block;
+    padding: 15px 30px;  
+    color: #FFF!important;
+    font-size: 20px;
+    text-decoration: none!important;
+    font-family: Helvetica;
+	text-align: center;
+}
+  
+nav li a:hover { 
+	background-color: #008B00; 
+}
+
+/* The Dropdown Styles */
+  
+/* Hide Dropdowns by Default */
+nav ul ul {
+    display: none;
+    position: absolute; top: 79px;
+	margin-left: -1.5%;
+}
+     
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+    display:list-item;
+}
+     
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+    width:200px;
+    float:none;
+    position: relative;
+    border-bottom:none;
+}
+
+nav ul ul li i {
+	margin-right:10px;
+}
+
+nav ul ul li a {
+    padding:15px 20px;
+	text-align:left;  
+}
+
+/*Text Color Changes on Index*/
+
+.donateText{
+	color: red;
+	font-weight:bold;
+}
+
+.adoptText{
+	color: blue;
+	font-weight:bold;
+}
+
+/*Donate & Adopt Buttons on Index*/
+
+.giveButtons {
+	padding: 25px;
+}
+
+.giveButtons a {
+	margin-left: 24%;
+}
+
+
+/*Sources on Index*/
+
+#copyright {
+	font-weight: bold;
+}
+
+/*Text Boxes*/
+	
+.grid {
+	width: 60%;
+	text-align: justify;
+	margin-left: 20%;
+}
+
+.title {
+	text-align: center;
+}
+
+.title p {
+	font-family: Merriweather;
+}
+
+.title h1 {
+	font-weight: bold;
+}
+
+.content p {
+	padding:10px;
+	
+}
+
+
+/*Facts Headers*/
+
+.marine h3 {
+	color: blue;
+}
+
+.primates h3 {
+	color: red;
+}
+
+.cats h3 {
+	color: orange;
+}
+	
+/*Apps Images*/
+
+.images {
+	padding: 10px;
+}
+
+.origami {
+	width: 1060px;
+	margin-left:16.35%;
+}
+
+.oSoldier {
+	float:left;
+	margin-left: .4em;
+}
+
+.oPenguin {
+	float:left;
+}
+
+
+/*Return Home Button*/
+
+#return {
+  position:fixed;
+  bottom:7.5%;
+  right:1.5%;
+  background-color:#009900;
+  color:#fff;
+  text-decoration:none;
+  padding:10px;
+  width:100px;
+  z-index:1;
+}
+
+#return:hover{
+	background-color: #004d00;
+}
+
+/*Footer*/
+
+footer{
+	position: relative;
+	bottom: 0%;
+	background-color: #009900;
+	width: 100%;
+	font-size: 15.5px;
+	border-top: .5px solid #008B00;
+	border-bottom: .5px solid #008B00;
+}
+
+
+footer p{
+	float: top-left;
+	color: #d9d9d9;
+	font-weight: bold;
+}

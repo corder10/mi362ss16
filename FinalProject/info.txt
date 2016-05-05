@@ -1,0 +1,26 @@
+100 - Hosted on Heroku (Required): fierce-chamber-75060.herokuapp.com
+100 - Custom domain name (Required): corder10-final-project.ignorelist.com
+100 - Instructor/discretionary (Required, looking for quality, originality, spelling/grammer, overall project polish): Proper spelling and punctuation throughout the website. Consistent theme appropriate for the website's content.
+
+_________________________________________________________________________________________________________________
+
+300 - 4 complete HTML pages with content
+	Link To: Twitter: https://twitter.com/world_wildlife | Facebook: https://www.facebook.com/worldwildlifefund
+	1) Home: Basic introduction page with a call to action of Donate/Adopt buttons.
+	2) About: Information on the foundation; who they are, what they do.
+	3) App (2+ custom images from my phone): Introduction to the WWF app for iOS including custom pictures and personal description.
+	4) Facts: Endangered animals facts across various breeds.
+
+200 - Custom CSS or Bootstrap for design (all pages) - "Green Theme" using Font Awesome icons for the header. Along with that bootstrap is one for the Adopt/Donate buttons, and a custom CSS design for all pages with proper spacing and some color coding.
+
+50 - Use a 3rd party font icon like FontAwesome: Font Awesome icons for the header.
+
+50 - Use at least two custom images (original photography or illustration): Custom images on Apps page taken from my phone using the WWF app.
+
+100 - Use a Heroku add-on in your project (https://elements.heroku.com/addons): Raygun add-on, used for real-time error reporting. Helped finalize the website. 
+
+_________________________________________________________________________________________________________________
+
+
+Required Steps Total: 300
+Other Content Total: 700 / 700
